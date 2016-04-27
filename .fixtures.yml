@@ -1,0 +1,6 @@
+fixtures:
+    symlinks:
+        acmetool: "#{source_dir}"
+    forge_modules:
+        stdlib: "puppetlabs/stdlib"
+        apt: "puppetlabs/apt"
