@@ -1,6 +1,7 @@
 ---
+language: ruby
 sudo: false
-befor_install:
+before_install:
     - gem install puppetlabs_spec_helper
 script: 'rake spec'
 rvm:
