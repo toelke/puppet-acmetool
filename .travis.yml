@@ -1,4 +1,7 @@
 ---
+sudo: false
+befor_install:
+    - gem install puppetlabs_spec_helper
 script: 'rake spec'
 rvm:
   - 2.1.8
