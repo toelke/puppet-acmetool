@@ -13,8 +13,8 @@ class acmetool {
 			'src' => false,
 			'deb' => true,
 		},
-	}
-	package {'acmetool': ensure => installed }
+	} ->
+	package {'acmetool': ensure => installed } ->
 	cron {'acmetool':
 		command => '/usr/bin/acmetool --batch',
 		user => 'root',
